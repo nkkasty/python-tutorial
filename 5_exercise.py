@@ -27,13 +27,9 @@ lst_2 = [75, 65, 35, 75, 30]
 lst_1[0] == lst_1[-1]
 
 def check(lst):
-    if lst[0] == lst[-1]:
-        answer = True
-    else:
-        answer = False
 
     print(f"Your list: {lst}")
-    print(f"Result is: {answer}")
+    print(f"Result is: {lst[0] == lst[-1]}")
 
 check(lst_1)
 check(lst_2)
