@@ -33,5 +33,3 @@ def check(lst):
 
 check(lst_1)
 check(lst_2)
-
-
